@@ -74,20 +74,20 @@ NOTE: You do not have to name these the same way.
 Redux Actions
 You'll want actions that delete a listing, add a listing, login/logout, and fetch coordinates for your map given a certain address. You may have more or less depending on how you structure your app.
 
-React Router
+# React Router
 As far as React Router goes, find an example on the web of using private routes. You can search "Private Routes React" in Google or look at your previous homework assignments.
 
 Your "isAuthenticated" function that complements the private route may use the "cookie" npm package to parse the cookie. Remember you can set a cookie by writing document.cookie = "user=<USERNAME>;max-age=60*1000*5;
 
-Google Maps
+# Google Maps
 Make sure to reference the Google Maps Documentation.
 
 You will need to get an API key. Here's a URL example that will retrieve the coordinates for your map given a certain address: https://maps.google.com/maps/api/geocode/json?key=<API_KEY>&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA. You will want to follow the instructions closely on setting up credentials for your API key.
 
 Finally on Google Maps, you can use the sample code they provided or use an NPM package that helps incorporate Maps into React. An example of such an NPM package can be found at google-map-react.
 
-Login
+# Login
 On the login page, you do not actually have to validate the login. Using any username and password combination is fine for this project.
 
-Add Listing
+# Add Listing
 If you use componentDidUpdate you'll know when certain properties of state have changed. You'll probably be changing these properties as you type in the Text field. If the address has changed, you can use this to call your "getCoordinates" action (or whatever you named it) and get the lat/lng for your map. This will allow you to update your map in real time.

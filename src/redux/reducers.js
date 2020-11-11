@@ -1,7 +1,5 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
 
-const biz = (state = []) => {
-    
-}
+const biz = (state = []) => state;
 
-export default combineReducers(biz);
+export default combineReducers({biz});

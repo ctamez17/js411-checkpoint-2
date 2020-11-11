@@ -1,25 +1,25 @@
 export default {
-    biz: [
-        {
-            id: 1,
-            name: "test1",
-            description: "test1",
-            hours: "test1",
-            address: "test1"
-        },
-        {
-            id: 2,
-            name: "test2",
-            description: "test2",
-            hours: "test2",
-            address: "test2"
-        },
-        {
-            id: 3,
-            name: "test3",
-            description: "test3",
-            hours: "test3",
-            address: "test3"
-        }
-    ]
-}
+  biz: [
+    {
+      id: 1,
+      name: "test1",
+      description: "test1",
+      hours: "test1",
+      address: "test1",
+    },
+    {
+      id: 2,
+      name: "test2",
+      description: "test2",
+      hours: "test2",
+      address: "test2",
+    },
+    {
+      id: 3,
+      name: "test3",
+      description: "test3",
+      hours: "test3",
+      address: "test3",
+    }
+  ]
+};

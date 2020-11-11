@@ -1,8 +1,8 @@
 import { connect } from "react-redux";
-import listings from "../components/listings";
+import details from "../components/details";
 
 const mapStateToProps = (state) => {
   return { biz: state.biz };
 };
 
-export default connect(mapStateToProps)(listings);
+export default connect(mapStateToProps)(details);
