@@ -11,6 +11,8 @@
 Create container and component to "handleLogin"
 Import into Navigation to display
 
+Google "How to use Google Maps with REACT"
+
 
 # --------------------------------------
 # Tips / Explained
@@ -29,5 +31,3 @@ reducers (type logic) >
 containers (mapDispatchToProps) > 
 component(Action Implementation)
 
-## API Key
-AIzaSyDnqFfdnRIdEjOaRczlTzutieoGYfzcqlI

@@ -45,6 +45,6 @@ const details = (props) => {
 
 export default details;
 
-// export default GoogleApiWrapper({
-//   apiKey: "AIzaSyDnqFfdnRIdEjOaRczlTzutieoGYfzcqlI",
-// })
+// export default { details, GoogleApiWrapper({
+//   apiKey: REACT_APP_GOOGLE_API_KEY,
+// })}
