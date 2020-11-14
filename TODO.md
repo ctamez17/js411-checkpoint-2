@@ -3,10 +3,13 @@
 # --------------------------------------
 
 1.  Create functionality to Add/Remove state
-    - Add: Create new addBiz component 
-    - Remove
 2.  Create authentication and conditional rendering (specifically for add/remove)
+    - Create LOGOUT functionality 
 3.  Integrate Google Maps API
+
+
+Create container and component to "handleLogin"
+Import into Navigation to display
 
 
 # --------------------------------------
@@ -25,3 +28,6 @@ actions (type) >
 reducers (type logic) > 
 containers (mapDispatchToProps) > 
 component(Action Implementation)
+
+## API Key
+AIzaSyDnqFfdnRIdEjOaRczlTzutieoGYfzcqlI

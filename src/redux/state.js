@@ -1,25 +1,30 @@
 export default {
+  user: {
+    username: false,
+    password: false,
+  },
+
   biz: [
     {
       id: 1,
-      name: "test1",
-      description: "test1",
-      hours: "test1",
-      address: "test1",
+      name: "name1",
+      description: "desc1",
+      hours: "hours1",
+      address: "address1",
     },
     {
       id: 2,
-      name: "test2",
-      description: "test2",
-      hours: "test2",
-      address: "test2",
+      name: "name2",
+      description: "desc2",
+      hours: "hours2",
+      address: "address2",
     },
     {
       id: 3,
-      name: "test3",
-      description: "test3",
-      hours: "test3",
-      address: "test3",
-    }
-  ]
+      name: "name3",
+      description: "desc3",
+      hours: "hours3",
+      address: "address3",
+    },
+  ],
 };
